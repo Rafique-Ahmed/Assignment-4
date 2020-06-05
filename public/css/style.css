@@ -1,0 +1,594 @@
+html{
+    scroll-behavior: smooth;
+}
+body {margin:0;}
+*{margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; color: ;}
+a{text-decoration: none;}
+li{list-style: none;}
+a:hover{ text-decoration: none;}
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: white;
+}
+
+
+/**************** header start ************/
+.header{
+    widows: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.header:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background:black;
+    opacity: .3;
+    z-index: -2;
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background:black;
+    opacity: .3;
+    z-index: -1;
+}
+
+.nav-item a{
+    color: white !important;
+    font-weight: bold;
+}
+.nav-item a:hover{
+  color:#ff6600 !important;
+  font-weight: bold;
+}
+
+.navbar-brand img{
+  height: 50px;
+}
+
+.navbar-brand a:hover{
+  color: #ff6600 !important;
+}
+.header-section{
+    width: 100;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-item img{
+  height: 500px;
+}
+.carousel-item h1{
+  color: #ff6600;
+  z-index: -1;
+}
+.carousel-caption{
+  background-color: black !important;
+  opacity: .5;
+  
+}
+.carousel-item p{
+  color:white;
+  font-weight: bolder;
+  z-index: -1;
+}
+
+
+/****************** header ends****************/
+/*******************social media starts *********/
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right:0%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white !important;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white !important;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white !important;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white !important;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+
+/*******************social media ends *********/
+/*******************Introduction starts *********/
+
+  .intro{
+    width: 100%;
+    height: 400px;
+    margin: 0 0;
+    background-image: url('../images/intro.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.intro-div{
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3px;
+    transition:  0.3s;
+    color:#ff6600;
+    background-color: black;
+    
+}
+.intro-div p{
+  color: white;
+}
+
+
+
+/**************** Introduction ends **************/
+
+/**************** Location start **************/
+.Locations{
+  background: black;
+ 
+  padding: 50px 0;
+  position: relative;
+}
+.Locations p{
+  color: white;
+}
+
+.Locations h1 , h2{
+  color: #ff6600;
+}
+.headings{
+  margin-bottom: 50px;
+}
+
+.headings h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000 !important;
+}
+
+/**************** Location ends **************/
+
+
+
+/**************** Deals  start **************/
+.deals{
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  position: relative;
+  color: white !important;
+}
+.deals::before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background:linear-gradient(160deg,#ff6600 40%, #000 0%);
+  z-index: -1;
+  margin-top: 0%;
+}
+
+.money{
+  font-size: 40px;
+  line-height: 1;
+  color: white;
+
+}
+
+.card{
+  transition: 0.4s ease;
+  background-color: black;
+  color: white !important;
+}
+
+.card-header{
+  font-size: 1.6rem;
+  font-weight: bold;
+  background: white !important;
+  padding: 25px 9 !important;
+  background-color: black !important;
+}
+
+.card-body{
+  padding: 30px 0px !important;
+  
+}
+
+.card-body li{
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: white;
+}
+
+.card-footer{
+  background:black !important;
+  padding: 30px 0px !important;
+}
+
+
+
+
+.card-footer a{
+  border: 1px solid #ff6600;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color:white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+
+.card:hover .card-footer a{
+  color:black;
+  background-color:#ff6600;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.card:hover{
+  transform: translateY(-20px);
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+
+.card:hover .card-header, .card:hover .money, .card-header {
+  color:#ff6600 !important;
+}
+
+
+
+/**************** deals end **************/
+
+/**************** footer starts **************/
+.footersection{
+  height: auto;
+  width: 100%;
+  padding: 70px 0 20px 0;
+  background:black;
+  position: relative;
+}
+
+.footersection p{
+  color:white !important;;
+}
+
+
+.footersection li a{
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color:white !important;;
+  text-transform: capitalize;
+}
+
+
+.footersection h1{
+  text-transform: uppercase;
+  color: #ff6600 !important;;
+  margin-bottom: 25px;
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.footer-div  a:hover{
+  color:#ff6600 !important;
+}
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: #fff !important;;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+#myBtn:hover{
+  background: #606060;
+}
+/**************** footer End **************/
+
+/**************** Contact Us start**************/
+.contactus{
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0;
+  position: relative;
+}
+
+.contactus::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background:linear-gradient(160deg,#ff6600 40%, #000 0%);
+  z-index: -1;
+}
+
+.form-button button{
+  border: 1px solid #ff6600;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color:#ff6600;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  background: transparent;
+}
+
+button:hover{
+  color:#ff6600;
+}
+form:hover .form-button button{
+  background:#ff6600;
+  color:black;
+  box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+}
+
+
+::placeholder{
+  font-size: 0.85rem;
+}
+
+/**************** Contact us End **************/
+
+
+/**************** Header 2 Starts **************/
+.bg{
+  background:linear-gradient(160deg, #000 79%, #ff6600 0%);
+}
+.header2{
+  widows: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url('../images/food1.jpg');
+  position: relative;
+  clip-path:polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0% 0%);
+  border: black 1pc;
+}
+
+.header2:before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background:linear-gradient(to right, #000000 0%, #000000 0%, #000000 100%);
+  opacity: .3;
+  z-index: -1;
+}
+
+.header-section{
+    width: 100;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+
+
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px;
+    color: white;
+}
+
+
+/**************** Header 2 End **************/
+
+/****************** About us starts *********/
+
+.about{
+  width: 100%;
+  height: auto;
+  margin: 0 0;
+  background-image: url('../images/intro.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.about-div{
+  border: medium none;
+  padding: 50px!important;
+  border-radius: 3px;
+  transition:  0.3s;
+  color:#ff6600;
+  background-color: black;
+  
+}
+.about-div p{
+color: white;
+}
+
+
+
+/****************About us ends **************/
+/****************** About us starts *********/
+
+.about1{
+  width: 100%;
+  height: auto;
+  margin: 0 0;
+  background-image: url('../images/intro.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.about1-div{
+  border: medium none;
+  padding: 50px!important;
+  border-radius: 3px;
+  transition:  0.3s;
+  color:#ff6600;
+  background-color: black;
+  left: 50%;
+  
+}
+.about1-div p{
+color: white;
+}
+
+
+
+/****************About us ends **************/
+
+/**************** Menu start**************/
+.menu{
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+  position: relative;
+}
+
+.menu::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background:#ff6600;
+  z-index: -1;
+}
+
+.menu button{
+  background-color: black;
+  color: white;
+}
+.menu button:hover{
+  color:#ff6600 !important; 
+}
+.menu table{
+  background-color: black;
+  color: white;
+}
+
+.menu tbody tr:hover{
+  color:#ff6600 !important; 
+}
+.menu li{
+  background-color:#ff6600 !important;
+  border: 0 !important;
+}
+/**************** Menu ends**************/
+/**************** Media Queries **************/
+
+
+@media(max-width:768px){
+  .nav-item{
+      text-align: center !important;
+  }
+
+  .deals{
+    height: auto;
+    margin-top: 0px;
+}
+.card-second{
+  transform: translateY(0px);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.intro{
+  height: 600px;
+}
+.footer-div:nth-child(2){
+  text-align: left!important;
+}
+.footer-div{
+  margin: 30px 0;
+}
+
+
+.contactus{
+  height: auto;
+}
+
+
+.bg{
+  background:linear-gradient(160deg, #000 100%, #ff6600 0%);
+}
+.about1-div{
+  left: 0%;
+}
+.menu{
+  height: auto;
+}
+}
