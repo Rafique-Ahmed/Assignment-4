@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>R Resturant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#table1").hide();
+      $("#table2").hide();
+      $("#table3").hide();
+      $("#button1").click(function(){
+        $("#table1").toggle("slow");
+      });
+      $("#button2").click(function(){
+        $("#table2").toggle("slow");
+      });
+      $("#button3").click(function(){
+        $("#table3").toggle("slow");
+      });
+    });
+    </script>
+</head>
+<body>
+
+<!-- social media starts -->
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+      </div>
+<!-- social media ends -->
+<!-- header starts -->
+<div class="bg">
+    <div class="header2 " id="topheader">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+            <div class="container text-uppercase p-2">
+            <a class="navbar-brand font-weight-bold font text-white" href="#"><img src="./images/ra.png"> Resturant</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-danger"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto text-uppercase">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+          <section class="header-section">
+            <div class="center-div">
+                <h1 class="font-weight-bold">We serve the quality food</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus tempore, maiores sunt sequi debitis soluta</p>
+
+            </div>
+          </section>
+          </div>
+        </div>
+          <!-- social header ends -->
+
+
+
+
+<!--*************Contact us Start ****************-->
+
+
+
+<section class="menu" id="contactid">
+      <div class="container">
+        <div class="row">
+        <div class="col-lg-10 col-md-10 col-10 offset-lg-1 offset-md-1 offset-1 ">
+          <ul class="list-group">
+            <li class="list-group-item ">
+            <button id="button2" type="button" class="btn  btn-lg btn-block">Fast Food</button>
+            <table class="table table-hover " id="table2">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Dish</th>
+                  <th scope="col">Price</th>
+            
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Zinger Burger</td>
+                  <td>200 PKR</td>
+                 
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Chincken Burger</td>
+                  <td>150 PKR</td>
+             
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td >Beef Burger</td>
+                  <td >150 PKR</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li class="list-group-item">
+            <button id="button1" type="button" class="btn  btn-lg btn-block">Desi Food</button>
+            <table class="table table-hover " id="table1">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Dish</th>
+                  <th scope="col">Price</th>
+            
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Chicken Briyani Full Plate</td>
+                  <td>200 PKR</td>
+                 
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Beef Briyanir Full Plate</td>
+                  <td>150 PKR</td>
+             
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td >Vegitable Briyani Full Plate</td>
+                  <td >100 PKR</td>
+                </tr>
+              </tbody>
+            </table>
+            </li>
+            <li class="list-group-item">
+              <button id="button3" type="button" class="btn  btn-lg btn-block">Drinks</button>
+              <table class="table table-hover " id="table3">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Dish</th>
+                    <th scope="col">Price</th>
+              
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>2.25 Liter</td>
+                    <td>150 PKR</td>
+                   
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>1.5 Liter</td>
+                    <td>100 PKR</td>
+               
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td >500 ml</td>
+                    <td >50 PKR</td>
+                  </tr>
+                </tbody>
+              </table>
+              </li>
+            </ul>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  </section>
+<!--*************Contact us ends ****************-->
+
+
+<!--*************footer starts ****************-->
+
+<footer class="footersection" id="footerid">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 footer-div">
+        <div>
+          <h1>Abouts us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, cumque quasi dignissimos officia dolorem autem placeat distinctio est ab necessitatibus repudiandae laboriosam, voluptates vero. Eveniet sit quisquam dolores placeat aperiam.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+        <div>
+          <h1>Navigation</h1>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Meun</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-12 col-12 footer-div">
+        <div>
+          <h1>newsletter</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, cumque quasi dignissimos officia dolorem autem placeat distinctio est ab necessitatibus repudiandae laboriosam, voluptates vero. Eveniet sit quisquam dolores placeat aperiam.</p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 text-center ">
+      <p>
+        Copyrights © Reserved to Rafique Ahmed Memon 2020</p>
+    </div>
+    <div class="scrolltop float-right">
+      <i class="fa fa-arrow-up" onclick="topfunction()" id="myBtn"></i>
+    </div>
+  </div>
+</footer>
+
+<!--*************footer ends ****************-->
+<script type="text/javascript">
+
+  
+  
+mybutton =document.getElementById('myBtn');
+window.onscroll =function(){scrollfunction();}
+
+function scrollfunction(){
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+    mybutton.style.display="block";
+  }
+  else{
+    mybutton.style.display="none";
+  }
+}
+
+
+
+function topfunction(){
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop= 0;
+}
+
+
+
+</script>
+
+
+
+
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+    
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha256-w49DIDk8itgSjjuoof5lTxYKwcjWJ7Z2sRW3nU1StNA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha256-wldfwyVJyA71oKe6Sba0fKZkaR6CMwtb0DnWcQs6N1Y=" crossorigin="anonymous"></script>
+
+</body>
+</html>
